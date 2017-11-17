@@ -3,7 +3,7 @@ project(bootstrap_cpp)
 
 enable_testing()
 set(CMAKE_CXX_STANDARD 14)
-add_compile_options(-Wall -Wextra -Werror)
+add_compile_options(-Wall)
 
 add_subdirectory(external/googletest)
 
